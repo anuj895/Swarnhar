@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:padding="10dp">
+
+<LinearLayout
+    android:id="@+id/Linear1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_weight="2"
+        android:background="@color/colorAccentwhite"
+        android:src="@drawable/ic_lens_black_24dp" />
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="@string/order_number"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp"
+        android:layout_weight="98"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/Linear1"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placed"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_weight="6"
+            />
+        <TextView
+            android:id="@+id/placed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="12dp" />
+
+        <ImageButton
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:src="@drawable/ic_more_vert_black_24dp"
+            android:background="@color/colorAccentwhite"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Dest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_below="@+id/Linear"
+        android:weightSum="100">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/destination"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_weight="6"
+        />
+  <TextView
+        android:id="@+id/destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Text2"
+     android:layout_weight="94"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Dest"
+        android:layout_marginStart="15dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+            <TextView
+                android:id="@+id/detailsOrder"
+                android:text="@string/full_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:clickable="true"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_weight=".9"
+                android:maxLines="3"
+                android:focusable="true" />
+        <TextView
+            android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="swss..."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_weight=".1"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

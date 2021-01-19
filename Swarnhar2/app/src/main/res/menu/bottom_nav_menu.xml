@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/open_order"
+        android:icon="@drawable/ic_storage_black_24dp"
+        android:title="@string/open_order" />
+
+    <item
+        android:id="@+id/in_transit"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/in_transit" />
+
+    <item
+        android:id="@+id/closed_order"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/closed_order" />
+
+</menu>

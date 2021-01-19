@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Swarnhar2</string>
+    <string name="filter">Filter</string>
+    <string name="reset">Reset</string>
+    <string name="orders">Orders</string>
+    <string name="origin">Origin:</string>
+    <string name="destination">Destination:</string>
+    <string name="placed">Placed:</string>
+    <string name="order_number">#Order Number</string>
+    <string name="full_details">Full Details...</string>
+    <string name="order_status">order_status</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_in">action_sign_in_short</string>
+    <string name="log_in">Log in</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="save_username">Save username</string>
+    <string name="forgot_your_username_or_password">Forgot your username or password?</string>
+    <string name="swarnhar_logistic">Swarnhar Logistic</string>
+    <string name="title_home">title_home</string>
+    <string name="title_dashboard">title_dashboard</string>
+    <string name="open_order">Open order</string>
+    <string name="transit">Transit</string>
+    <string name="closed_order">Closed Order</string>
+    <string name="in_transit">In transit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

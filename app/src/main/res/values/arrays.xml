@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Origin">
+        <item>Delhi</item>
+        <item>Noida</item>
+        <item>Lucknow</item>
+        <item>Kanpur</item>
+        <item>Satna</item>
+        <item>Chitrakoot</item>
+
+    </string-array>
+    <string-array name="Destination">
+        <item>Noida</item>
+        <item>Lucknow</item>
+        <item>Kanpur</item>
+        <item>Satna</item>
+        <item>Chitrakoot</item>
+
+    </string-array>
+
+    <string-array name="order">
+        <item>Rejected</item>
+        <item>Delivered</item>
+        <item>Shipped</item>
+    </string-array>
+
+    <string-array name="District">
+        <item>kanpur</item>
+        <item>Unnav</item>
+        <item>Lalitpur</item>
+    </string-array>
+
+        <string-array name="places">
+            <item>Banda</item>
+            <item>Chitrakoot</item>
+            <item>Jhansi</item>
+            <item>Lucknow</item>
+
+        </string-array>
+    <string-array name="array_technology">
+    <item>#Order Number
+        placed:Dec 10th 2019 9:08pm
+    Destination:Uttar Pradesh,Gajiyabad(Full Address)
+        Full Details..
+    </item>
+    <item>#Order Number</item>
+    <item>#Order Number</item>
+    </string-array>
+
+</resources>
